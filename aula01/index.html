@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+
+<body>
+    <!--Lista não ordenada, fica com pontinhos antes da palavra-->
+    <ul>
+        <li>Maçã</li>
+        <li>Banana</li>
+        <li>Laranja</li>
+    </ul>
+
+    <!--Lista ordenada, fica com números antes das palavras-->
+    <ol>
+        <li>git init</li>
+        <li>git status</li>
+        <li>git add .</li>
+    </ol>
+
+    <!-- Listas aninhadas, lista dentro de lista -->
+    <ul>
+        <li>Frutas
+            <ul>
+                <li>Maçã</li>
+                <li>Banana</li>
+            </ul>
+
+        </li>
+    </ul>
+    <ul>
+        <li>Verduras
+            <ul>
+                <li>Alface</li>
+                <li>Repolho</li>
+            </ul>
+
+        </li>
+    </ul>
+
+    <h2>HTML SEMÂNTICO</h2>
+    <hr>
+    <!-- heaer é o cabeçalho do site -->
+    <header>
+        <img scr="" alt="">
+        <!-- nav area de navegação -->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+        </nav>
+    </header>
+    <!-- conteudo principal dentro do main-->
+    <main>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" placeholder="Pesquise no Google">
+            <button type="submit">Buscar</button>
+        </form>
+    </main>
+    <!-- Seções do site -->
+    <section>
+        <h2>Ultimas notícias</h2>
+        <p>Hoje foi anunciado um novo projeto</p>
+    </section>
+    <!-- Artigos independentes -->
+    <article>
+        <h2>Título da notícia</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aspernatur ullam minus pariatur
+            consectetur error quasi itaque! Exercitationem nisi beatae numquam tempora hic quidem repellat!</p>
+    </article>
+    <!-- Conteudo Relacionado "fica a parte, na lateral, não o principal" -->
+    <aside>
+        <h3>Vídeos Relacionados</h3>
+        <ul>
+            <li><a href="">Como programar em HTML</a></li>
+        </ul>
+    </aside>
+    <!-- Rodapé do site -->
+    <footer>
+        <p>2024 Sala Sesi - todos direitos reservados </p>
+        <a href="#">Política de Privacidade</a>
+    </footer>
+
+</body>
+
+</html>
