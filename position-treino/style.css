@@ -1,0 +1,28 @@
+.pai{
+    /* se coloca o relative a caixa vai sobrepor a outra, a referencia do filho é o pai entao ele vai seguir a caixa do pai*/
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 252, 54);
+    border: 5px solid rgb(241, 153, 212);
+    margin:0px;
+    top: 300px;
+}
+.filho1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 5px solid rgb(31, 218, 193);
+    margin: 0px;
+    top: 60px;
+    right: 200px;
+
+}
+.filho2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(212, 15, 147);
+    border: 5px solid rgb(24, 201, 39);
+    margin: 0px;
+}
