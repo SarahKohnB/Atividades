@@ -47,3 +47,5 @@ center: As linhas são compactadas no centro vertical do contêiner.
 space-between: As linhas são exibidas com espaçamento igual entre elas.
 space-around: As linhas são exibidas com espaçamento igual ao redor delas.
 stretch: As linhas são esticadas para caber no contêiner.
+
+display inline-block: colocar na mesma linha 
