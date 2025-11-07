@@ -10,7 +10,7 @@ body{
 label{
     
     border-radius: 12px;
-    padding: 10px;
+    padding: 11px;
     text-align:center;
 }
 fieldset{
@@ -32,4 +32,9 @@ button{
     padding: 3px;
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    border-radius: 5px;
+    padding: 4px;
+    text-align:center;
 }
